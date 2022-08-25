@@ -1,0 +1,25 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgba(204, 204, 204, 0.656);
+}
+
+.img-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+@media(max-width: 768px){
+    .img-logo {
+        width: 80%;
+    }
+}
+
+@media(min-width: 769px){
+    .img-logo{
+        width: 35%;
+    }
+}
+
+.mr-3{
+    margin-right: 3%;
+}
